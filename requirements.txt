@@ -26,6 +26,7 @@ Flask==1.1.1
 freezer==7.1.0
 Frozen-Flask==0.15
 greenlet==0.4.15
+gunicorn
 idna==2.8
 iso8601==0.1.12
 itsdangerous==1.1.0
