@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6627b1c-6208-4c10-a8ab-dcfcbd5534be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flask_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/flaskblog.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +22,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flaskblog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="435">
+              <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
               <folding>
-                <element signature="e#0#66#0" expanded="true" />
+                <element signature="e#0#83#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+            <state relative-caret-position="97">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -48,17 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state relative-caret-position="350">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+            <state relative-caret-position="422">
+              <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -66,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="270">
+              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -84,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -146,18 +141,18 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app/flaskblog.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
-        <option value="$PROJECT_DIR$/flaskblog.py" />
         <option value="$PROJECT_DIR$/forms.py" />
         <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/flaskblog.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-1177" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1129" />
   </component>
@@ -352,26 +347,32 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1565775450437</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="lots">
+      <created>1565855506246</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1565855506246</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1177" width="1920" height="1129" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1129" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968051" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49627262" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49627262" weight="0.343298" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49520767" weight="0.343298" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.3297975" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50319487" side_tool="true" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5037274" side_tool="true" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -383,7 +384,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lots of stuff" />
     <MESSAGE value="changed python version in runtime.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed python version in runtime.txt" />
+    <MESSAGE value="lots" />
+    <option name="LAST_COMMIT_MESSAGE" value="lots" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/freeze.py" />
@@ -401,24 +403,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/run.py" />
+    <entry file="file://$PROJECT_DIR$/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="270">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -429,10 +421,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -443,44 +435,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaskblog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="350">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+        <state relative-caret-position="422">
+          <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskblog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
