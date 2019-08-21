@@ -1,6 +1,6 @@
 import os
 import json
-import flask_heroku
+
 
 with open('app/config.json') as config_file:
     config = json.load(config_file)
@@ -18,4 +18,3 @@ class Config:
     MAIL_PASSWORD = config.get('EMAIL_PASS')
     # MAIL_USERNAME = os.environ.get('EMAIL_USER')
     # MAIL_PASSWORD = os.environ.get('EMAIL_PASS')
-    flask_heroku.settings(locals())
