@@ -1,6 +1,8 @@
 from app import db, login_manager
-from datetime import datetime
+from datetime import datetime, timedelta
+from flask import current_app
 from flask_login import UserMixin
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 
 @login_manager.user_loader
 def load_user(user_id):
@@ -14,6 +16,19 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(60), nullable=False)
     posts = db.relationship('Post', backref='author', lazy=True)
 
+    def get_reset_token(self, expires_sec=1800):
+        s = Serializer(current_app.config['SECRET_KEY'], expires_sec)
+        return s.dumps({'user_id': self.id}).decode('utf-8')
+
+    @staticmethod
+    def verify_reset_token(token):
+        s = Serializer(current_app.config['SECRET_KEY']);
+        try:
+            user_id = s.loads(token)['user_id']
+        except:
+            return None
+        return User.query.get(user_id)
+
     def __repr__(self):
         return f"User('{self.username}', '{self.email}', '{self.image_file}')"
 
@@ -26,3 +41,24 @@ class Post(db.Model):
 
     def __repr__(self):
         return f"Post('{self.title}', '{self.date_posted}')"
+
+
+class Blacklist(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    token = db.Column(db.String(200), nullable=False)
+    date_added = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+
+    @staticmethod
+    def verify_fresh_reset_token(token):
+        tokens = Blacklist.query.all()
+        for date in tokens:
+            if date.date_added < datetime.utcnow() - timedelta(minutes=30):
+                Blacklist.query.filter_by(id=date.id).delete()
+        return Blacklist.query.filter_by(token=token).first()
+
+
+
+    def __repr__(self):
+        return f"Blacklist('{self.token}')"
+
+
