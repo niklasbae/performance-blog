@@ -1,7 +1,7 @@
 import os
 import json
 
-with open('config.json') as config_file:
+with open('app/config.json') as config_file:
     config = json.load(config_file)
 
 
