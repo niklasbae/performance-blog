@@ -4,6 +4,7 @@ from PIL import Image
 from flask import url_for, current_app
 from app import mail
 from flask_mail import Message
+from azure.storage.blob import BlockBlobService
 
 
 def save_picture(form_picture):
@@ -15,6 +16,12 @@ def save_picture(form_picture):
     i = Image.open(form_picture)
     i.thumbnail(output_size)
     i.save(picture_path)
+    blob_service = BlockBlobService('herokustorage', '/1LCdFzgOqwTu8i752Ww4PnVdEsjZbV1hqgEMHF/QgRl7rSFRETUipUNMz0CTPp2V6wW/GIMMv6gFjZkhCQQOg==')
+    blob_service.create_blob_from_path('images', picture_fn, picture_path)
+
+    url = blob_service.make_blob_url('images', picture_fn)
+    print(url)
+
     return picture_fn
 
 

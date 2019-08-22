@@ -3,6 +3,7 @@ from app import db
 from app.posts.forms import PostForm
 from app.models import Post
 from flask_login import current_user, login_required
+from app import Config
 
 posts = Blueprint('posts', '__name__')
 
@@ -24,7 +25,7 @@ def new_post():
 @posts.route("/post/<int:post_id>")
 def post(post_id):
     post = Post.query.get_or_404(post_id)
-    return render_template('post.html', title=post.title, post=post)
+    return render_template('post.html', title=post.title, post=post, bloburl = Config.BLOB_URL)
 
 
 @posts.route("/post/<int:post_id>/update", methods=['GET', 'POST'])
