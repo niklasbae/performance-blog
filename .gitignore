@@ -1,6 +1,6 @@
 # Mac
 .DS_Store
-app/static/profile_pics
+app/static/profile_pics/*.jpg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
